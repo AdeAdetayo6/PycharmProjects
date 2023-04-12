@@ -192,6 +192,7 @@ print(f'Counterfactual hours for {data_country[ID]} using the tax system of {dat
 
 
 # Code error, Tau9396 -> code fails to capture data from csv file. tau9396 => 1993-96 tau data
+
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # b)
