@@ -110,11 +110,13 @@ makefigures(1, hdata, hmodel, country_name, heading)
 
 # MAIN DATA
 
+
 import numpy as np
 import pandas as pd
 from scipy.optimize import fmin
 import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas_datareader as pdr
 
 def makefigures(fig_num, data, model, country, title):
     plt.figure(fig_num)
@@ -157,10 +159,11 @@ data.columns = data.columns.str.strip()
 # Define the loss function
 def LossFcn(alfa, theta, data):
     # Calculate the model's solution for hours worked for a given alpha
-    hmodel9396 = 100*(1-theta) / (alfa/(1-data['tau9396']) * data['c2y9396'] + (1-theta))
-    hmodel7074 = 100*(1-theta) / (alfa/(1-data['tau7074']) * data['c2y7074'] + (1-theta))
+    hmodel9396 = 100.*(1-theta) / (alfa/(1-data_tau9396) * data_c2y9396 + (1-theta))
+    hmodel7074 = 100.*(1-theta) / (alfa/(1-data_tau7074) * data_c2y7074 + (1-theta))
     # Calculate the sum of the squared residuals
-    loss = sum((data['hdata9396'] - hmodel9396)**2) + sum((data['hdata7074'] - hmodel7074)**2)
+    loss = sum((data_hdata9396 - hmodel9396)**2) + sum((data_hdata7074 - hmodel7074)**2)
+
     return loss
 
 # Step 2: Set predeteremined parameter(s)
