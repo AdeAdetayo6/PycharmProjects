@@ -196,13 +196,18 @@ print(f'Counterfactual hours for {data_country[ID]} using the tax system of {dat
 
 # Code error, Tau9396 -> code fails to capture data from csv file. tau9396 => 1993-96 tau data
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
 # b)
 
 
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Prescott in the 21st Century (35%)
+
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Generalisation of Preference (35%)
 
@@ -227,3 +232,7 @@ print(f'Counterfactual hours for {data_country[ID]} using the tax system of {dat
 # Overall, the generalization of preferences in the Prescott model has the potential to improve the fit of the
 # model to the data by capturing the trade-off between consumption and leisure time explicitly and allowing for
 # heterogeneity in preferences.
+
+# b)
+
+# c)
