@@ -205,6 +205,12 @@ print(f'Counterfactual hours for {data_country[ID]} using the tax system of {dat
 
 # Prescott in the 21st Century (35%)
 
+# student ID 1 = 6595773
+# student ID 2 = xxxxxx5
+
+# Year Data => 201X == 2018
+
+
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
